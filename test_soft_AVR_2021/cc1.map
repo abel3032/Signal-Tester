@@ -1,0 +1,31 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+rx_buffer0                                                        0x0200       8
+tx_buffer0                                                        0x0208       8
+tx_wr_index0                                                      0x0210       1
+tx_rd_index0                                                      0x0211       1
+tx_counter0                                                       0x0212       1
+_seed                                                             0x0213       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+rx_wr_index0                                                      R3           1
+rx_rd_index0                                                      R2           1
+rx_counter0                                                       R5           1
+rx_buffer_overflow0                                               GPIOR0.0  1bit
+cnt                                                               R4           1
+key                                                               R7           1
+cnt_key                                                           R6           1
+ok                                                                GPIOR0.1  1bit
+build_PF                                                          R9           1
+build_LED                                                         R8           1
+error_LED                                                         R11          1
+freq_test_LED                                                     R10          1
+DTMF_test_LED                                                     R13          1
+stop_LED                                                          R12          1
